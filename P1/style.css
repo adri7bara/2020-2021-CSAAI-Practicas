@@ -6,6 +6,18 @@ body {
   h1 {
     color:black;
   }
+
+  /* Estilo div*/
+  div {
+    display: inline-block;
+    background-color: rgb(116, 204, 204);
+    text-align: left;
+    border: solid;
+    border-color: black;
+    
+
+
+  }
   
   /* Estilo para los párrafos */
   p {
