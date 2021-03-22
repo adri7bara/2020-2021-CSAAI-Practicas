@@ -1,26 +1,36 @@
 body {
     background-color: pink;
-  }
+}
   
   /* Estilo para las etiquetas de tipo h1 */
-  h1 {
+h1 {
     color:black;
-  }
+}
 
   /* Estilo div*/
   
   
   /* Estilo para los párrafos */
-  p {
+p {
     color: black;
-  }
+}
 
  /* Estilo para los párrafos con clase*/
-  .caja1{
-    width: 30%;
-    border: solid;
+.caja1{
+    float:left;
+    width: 25%;
+    border: solid 2px;
     border-color: black;
-    }
+}
+.caja2{
+    float: left;
+    width: 60%;
+    border: solid 2px;
+    border-color: black;
+    margin: 5px;
+}
+
+
 
 
 
