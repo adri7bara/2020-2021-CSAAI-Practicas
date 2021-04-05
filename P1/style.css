@@ -1,5 +1,6 @@
 body {
-    background-color: pink;
+    background-color: rgb(187, 227, 230);
+    background-image: url(fondo.jpg);
 }
   
   /* Estilo para las etiquetas de tipo h1 */
@@ -7,7 +8,6 @@ h1 {
     color:black;
 }
 
-  /* Estilo div*/
   
   
   /* Estilo para los párrafos */
@@ -19,15 +19,22 @@ p {
 .caja1{
     float:left;
     width: 25%;
-    border: solid 2px;
-    border-color: black;
-}
+    padding: 3px 10px;
+    border: rgb(228, 176, 230) 5px groove;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+ }   
+
+
+
 .caja2{
-    float: left;
+    float: right;
     width: 70%;
     border: solid 2px;
     border-color: black;
     margin: 5px;
+    padding: 10px;
 }
 
 
@@ -35,4 +42,4 @@ p {
 
 
 
-}
+
