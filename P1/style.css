@@ -3,19 +3,20 @@ body {
     background-image: url(fondo.jpg);
 }
   
-  /* Estilo para las etiquetas de tipo h1 */
-h1 {
-    color:black;
+/* Estilo para el nombre */
+.nombre{
+    font-family: 'Comic Sans MS';
+    font-size: 45px;
+
 }
 
-  
-  
-  /* Estilo para los párrafos */
-p {
-    color: black;
+/* Estilo para las cabeceras de cada apartado */
+.cabecera{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
 }
 
- /* Estilo para los párrafos con clase*/
+ /* Estilo para las 3 cajas principales*/
 .caja1{
     float:left;
     width: 25%;
@@ -26,16 +27,28 @@ p {
     padding: 10px;
  }   
 
-
-
 .caja2{
     float: right;
     width: 70%;
-    border: solid 2px;
-    border-color: black;
-    margin: 5px;
+    border: rgb(228, 176, 230) 5px groove;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
     padding: 10px;
 }
+
+.caja3{
+    float: right;
+    width: 70%;
+    border: rgb(228, 176, 230) 5px groove;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-image: url(billetes.png);
+
+}
+
+
+  
 
 
 
