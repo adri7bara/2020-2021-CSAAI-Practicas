@@ -22,7 +22,7 @@ body {
     width: 25%;
     padding: 3px 10px;
     border: rgb(228, 176, 230) 5px groove;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     padding: 10px;
  }   
@@ -31,7 +31,7 @@ body {
     float: right;
     width: 70%;
     border: rgb(228, 176, 230) 5px groove;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     padding: 10px;
 }
@@ -39,10 +39,11 @@ body {
 .caja3{
     float: right;
     width: 70%;
+    height: 545px;
     border: rgb(228, 176, 230) 5px groove;
     border-radius: 5px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
     background-image: url(billetes.png);
 
 }
